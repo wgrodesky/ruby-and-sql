@@ -5,4 +5,23 @@
 
 # String Class
 
+my_favorite_food = "tacos"
+aidan_favorite_food = "cheese"
+
+puts my_favorite_food.class 
+puts aidan_favorite_food.class
+
+puts String.methods
+
+puts my_favorite_food.upcase
+
 # String Methods
+# 
+class Yoyo
+  def swing
+    puts "zzzzz"
+  end
+end
+
+hasbro = Yoyo.new
+puts hasbro.swing
